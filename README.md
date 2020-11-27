@@ -1,9 +1,8 @@
 # Badlibs
-### Department of Computer Science, Occidental College - May 2019
 
 *README currently under construction
 
-One Paragraph of project description goes here
+This is a Madlibs-style game written entirely in Java for the command line. Players are given the option to create a new game or join an existing game. The person to initiate a game is deemed the "scribe" and determines how many players will be able to participate in that game (minimum of 2 including the scribe, maximum of 5). Once all spots have been filled the scribe will prompt the other player(s) for a noun, verb, adjective, or adverb depending on the word(s) to be substituted. The game is turn based; if there are more than two players then the non-scribe players are assigned a number and take turns suggesting words. The scribe does not get the entire story at once but rather a sentence at a time to prevent confusion. Once the story has been completed, the scribe sends it to all the other players and every player gets the option to export/save the story as a text file. 
 
 
 ## Getting Started
@@ -35,11 +34,11 @@ java Client localhost [port]
 5. Repeat steps 3-4 depending on the number of players in the game (max 5)
 
 
-## Testing/Playing the Game
+## Playing the Game
 
-Explain how to run the automated tests for this system
+*There are 2 versions of the same story - I recommend "3littlepigs-short.txt" for quick testing but not for a full game
 
-Once all players are connected, the game setup will begin. The scribe will be asked to choose a story. I have included 2 versions of the same story - I recommend "3littlepigs-short.txt" for quicker testing.
+Once all players are connected, the game setup will begin. The scribe will be asked to choose a story.
 
 ### Break down into end to end tests
 
